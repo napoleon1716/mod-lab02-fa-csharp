@@ -171,11 +171,13 @@ namespace fans
   }
 
   class Program
-  {
-    static void Main(string[] args)
     {
-      String s = "0101";
-      FA1 fa1 = new FA1();
-      bool? result1 = fa1.Run(s);
-      Console.WriteLine(result1);
+        static void Main(string[] args)
+        {
+            String s = "0101";
+            FA1 fa1 = new FA1();
+            bool? result1 = fa1.Run(s);
+            Console.WriteLine(result1);
+        }
     }
+}
