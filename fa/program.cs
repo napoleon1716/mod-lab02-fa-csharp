@@ -178,3 +178,4 @@ namespace fans
       FA1 fa1 = new FA1();
       bool? result1 = fa1.Run(s);
       Console.WriteLine(result1);
+    }
